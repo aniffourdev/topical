@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { @apply bg-background text-text-primary; }
+.input { @apply w-full border rounded-lg px-3 py-2 text-sm; }
+.btn { @apply px-4 py-2 rounded-lg font-medium disabled:opacity-50; }
+.btn-primary { @apply bg-primary text-white hover:bg-primary-dark; }
+.card { @apply bg-surface border rounded-xl p-4 shadow-sm; }
